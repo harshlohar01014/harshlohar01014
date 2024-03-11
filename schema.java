@@ -20,7 +20,7 @@ public class product {
 }
 
 // ProductCategory entity class
-@Entity(name=category")
+@Entity(name="product_category")
 public class category {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
